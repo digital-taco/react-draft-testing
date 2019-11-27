@@ -6,19 +6,24 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Write cool code faster.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Check out{' '}
+          <a
+            className="App-link"
+            href="https://github.com/digital-taco/react-draft"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            React Draft
+          </a>
+        </p>
       </header>
+      <footer className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </footer>
     </div>
   );
 }
